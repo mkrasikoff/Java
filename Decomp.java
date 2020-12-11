@@ -29,3 +29,5 @@ class Decomp {
 		System.out.println(decompose("9", "10")); // need [1/2, 1/3, 1/15]
 	}
 }
+
+// changes
