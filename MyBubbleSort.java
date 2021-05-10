@@ -7,6 +7,7 @@ public class MyBubbleSort {
 			System.out.print(i + " ");
 		}
 		System.out.println();
+		long timeBeforeSort = System.currentTimeMillis();
 
 		array = new MyBubbleSort().sort(array);
 
@@ -14,7 +15,9 @@ public class MyBubbleSort {
 		for(int i: array) {
 			System.out.print(i + " ");
 		}
-		System.out.println();		
+		System.out.println();
+		System.out.println("Затраченное время на сортировку: " + 
+			((double) System.currentTimeMillis() - timeBeforeSort) / 1000 + " с.");		
 	}
 
 	public void swap(int[] array, int firstIdx, int secondIdx) {

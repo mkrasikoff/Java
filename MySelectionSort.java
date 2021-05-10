@@ -7,6 +7,7 @@ public class MySelectionSort {
 			System.out.print(i + " ");
 		}
 		System.out.println();
+		long timeBeforeSort = System.currentTimeMillis();
 
 		array = new MySelectionSort().sort(array);
 
@@ -15,6 +16,8 @@ public class MySelectionSort {
 			System.out.print(i + " ");
 		}
 		System.out.println();	
+		System.out.println("Затраченное время на сортировку: " + 
+			((double) System.currentTimeMillis() - timeBeforeSort) / 1000 + " с.");
 	}
 
 	public void swap(int[] array, int firstIdx, int secondIdx) {
