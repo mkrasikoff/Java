@@ -6,8 +6,6 @@ public class MyLinkedList<T> {
 		System.out.println(myLinkedList.getSize());
 		myLinkedList.remove(2);
 
-		myLinkedList.add("0");
-		myLinkedList.add("1");
 		myLinkedList.add("2");
 		myLinkedList.add("3");
 		myLinkedList.add("4");
