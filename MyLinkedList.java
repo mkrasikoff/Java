@@ -12,6 +12,8 @@ public class MyLinkedList<T> {
 		myLinkedList.add("3");
 		myLinkedList.add("4");
 		myLinkedList.add("5");
+		myLinkedList.add("6");
+		myLinkedList.add("7");
 
 		myLinkedList.showElements();
 		System.out.println(myLinkedList.getSize());
