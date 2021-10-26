@@ -1,6 +1,9 @@
 public class Codewars {
+	
 	public static String oddOrEven (int[] array) {
+		
 		int sum = 0;
+		
 		for(int x: array) {
 			sum += x;
 		}
