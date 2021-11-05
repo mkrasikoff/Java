@@ -1,9 +1,12 @@
 interface NumericFunc {
+	
 	int func(int n);
 }
 
 class BlockLambdaDemo {
+	
 	public static void main(String[] args) {
+		
 		NumericFunc smallestF;
 		smallestF = (n) -> { // данное лямбда-выражение возвращает наименьший положительный делитель заданного числа
 			int result = 1;
