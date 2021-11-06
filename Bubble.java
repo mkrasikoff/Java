@@ -1,10 +1,14 @@
 class Bubble {
+	
 	public static void main(String[] args) {
+		
 		int nums[] = { 99, -10, 100123, 18, -978, 5623, 463, -9, 287, 49};
 		String nums_string[] = { "ab", "ac", "dc", "da", "mk", "km", "aa", "ba", "lk", "eo"};
+		
 		int a, b;
 		String t;
 		int size;
+		
 		size = nums_string.length; // количество сортируемых элементов
 
 		// отобразить исходный массив
@@ -25,9 +29,14 @@ class Bubble {
 		}
 		
 		// отобразить отсортированный массив
+		
 		System.out.print("Отсортированный массив:");
-		for(int i = 0; i < size; i++)
+		
+		for(int i = 0; i < size; i++) {
+			
 			System.out.print(" " + nums_string[i]);
+		}
+		
 		System.out.println();
 	}
 }	
