@@ -1,4 +1,5 @@
 public class MyLinkedList<T> {
+	
 	public static void main(String[] args) {
 		MyLinkedList<String> myLinkedList = new MyLinkedList<>();
 
@@ -53,6 +54,7 @@ public class MyLinkedList<T> {
 
 	public void remove(int index) {
 		Node current = head;
+		
 		if(current == null) {
 			System.out.println("There is no elements to remove.");
 		} else if(index > numberOfElements) {
@@ -70,6 +72,7 @@ public class MyLinkedList<T> {
 
 	public void showElements() {
 		Node current = head;
+		
 		if(current == null) {
 			System.out.println("There is no elements in MyLinkedList.");
 		}
@@ -108,4 +111,3 @@ public class MyLinkedList<T> {
 		}
 	}
 }
-
