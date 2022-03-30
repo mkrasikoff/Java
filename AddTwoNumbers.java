@@ -36,7 +36,6 @@ class AddTwoNumbers {
             l2 = getNextNode(l2);
         }
         
-        System.out.println(listWithResult);
         ListNode listNode = null;
         ListNode firstNode = null;
         
