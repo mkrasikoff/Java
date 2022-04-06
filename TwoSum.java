@@ -9,7 +9,8 @@ class TwoSum {
             if (map.containsKey(target - numbers[i])) {
                 
                 result[1] = i;
-                result[0] = map.get(target - numbers[i]);
+                result[0] = 
+				
                 return result;
             }
             
