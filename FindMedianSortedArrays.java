@@ -13,6 +13,7 @@ class FindMedianSortedArrays {
       for(int number: nums1) {
          listWithNumbers.add(number);
       }
+	  
       for(int number: nums2) {
          listWithNumbers.add(number);
       }
