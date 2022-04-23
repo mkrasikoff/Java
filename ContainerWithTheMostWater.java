@@ -13,7 +13,9 @@ class ContainerWithTheMostWater {
             }
             else current = height[i] * (j - i);
 
-            if (current > currentMaxSquare) currentMaxSquare = current;
+            if (current > currentMaxSquare) {
+				currentMaxSquare = current;
+			}
          }
       }
 
