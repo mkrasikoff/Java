@@ -23,8 +23,7 @@ class MedianOfTwoSortedArrays {
          return (double) (listWithNumbers.get(listSize / 2));
       }
       else {
-         return (((double) listWithNumbers.get(listSize / 2 - 1))
-                 + ((double) listWithNumbers.get(listSize / 2))) / 2;
+         return (((double) listWithNumbers.get(listSize / 2 - 1)) + ((double) listWithNumbers.get(listSize / 2))) / 2;
       }
    }
 }
