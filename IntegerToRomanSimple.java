@@ -1,7 +1,6 @@
 class IntegerToRomanSimple {
 	
     public String intToRoman(int num) {
-		
       String[] M = new String[] {"", "M", "MM", "MMM"};
       String[] C = new String[] {"", "C", "CC", "CCC", "CD", "D", "DC", "DCC", "DCCC", "CM"};
       String[] X = new String[] {"", "X", "XX", "XXX", "LX", "L", "LX", "LXX", "LXXX", "LC"};
