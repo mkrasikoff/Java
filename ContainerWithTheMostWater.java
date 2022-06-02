@@ -1,6 +1,5 @@
 class ContainerWithTheMostWater {
     public int maxArea(int[] height) {
-		
 		int left = 0, right = height.length - 1;
 		int maxArea = 0;
 
