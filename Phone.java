@@ -8,6 +8,7 @@ class Phone {
 			{ "Rachel", "555-1400"},
 			{ "Bogdan", "+79633238459"},
 		};
+		
 		int i;
 		if(args.length != 1)
 			System.out.println("Использование: java Phone <имя>");
