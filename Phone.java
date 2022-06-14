@@ -13,6 +13,7 @@ class Phone {
 		if(args.length != 1)
 			System.out.println("Использование: java Phone <имя>");
 		else {
+			
 			for(i = 0; i < numbers.length; i++) {
 				if(numbers[i][0].equals(args[0])) {
 					System.out.println(numbers[i][0] + ": " + numbers[i][1]);
